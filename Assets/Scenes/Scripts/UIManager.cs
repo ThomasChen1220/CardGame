@@ -11,8 +11,8 @@ public class UIManager : MonoBehaviour
 
     public Animator[] gameObjectWithAnimators;
     public Text hpDisplayText, attDisplayText, defDisplayText, critDisplayText, damageDisplayText;
-    public Text timer;
-    float timeLeft = 20;
+    public Text date;
+    public int dayNumber = 0;
     
     string GetWithSign(int amount)
     {
@@ -63,11 +63,6 @@ public class UIManager : MonoBehaviour
         UpdatePlayerStatus();
 
     }
-    private void Update()
-    {
-        timeLeft -= Time.deltaTime;
-        timer.text = "" + (int)timeLeft;
-    }
     public void UpdatePlayerStatus() 
     {
         MakingAnimation();  
@@ -76,6 +71,7 @@ public class UIManager : MonoBehaviour
         defenseText.text = "" + playerStatus.defense;
         critText.text = "" + playerStatus.crit + "%";
         damageText.text = "" + playerStatus.damage;
+        date.text = "Day" + ++dayNumber;
     }
 
 

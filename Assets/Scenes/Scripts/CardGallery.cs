@@ -8,6 +8,8 @@ public class CardGallery : MonoBehaviour
     public bool revealed=false;
     bool inAnim = false;
     public Ease cardEase;
+    public UIManager uiManger;
+    public GameManager gm;
 
     private void Start()
     {
@@ -24,6 +26,10 @@ public class CardGallery : MonoBehaviour
         transform.GetChild(0).GetComponent<Card>().GetRandomCard();
 
         revealed = false;
+        if (uiManger.dayNumber > 20)
+        {
+            gm.LoadOnePunchScene(uiManger.playerStatus.damage);
+        }
     }
     public void ResetBools() {
         inAnim = false;

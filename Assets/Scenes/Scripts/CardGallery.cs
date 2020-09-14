@@ -26,7 +26,7 @@ public class CardGallery : MonoBehaviour
         transform.GetChild(0).GetComponent<Card>().GetRandomCard();
 
         revealed = false;
-        if (uiManger.dayNumber > 20)
+        if (uiManger.dayNumber >= 20)
         {
             gm.LoadOnePunchScene(uiManger.playerStatus.damage);
         }

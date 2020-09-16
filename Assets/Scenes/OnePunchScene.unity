@@ -1545,6 +1545,12 @@ PrefabInstance:
       propertyPath: bodyPart
       value: 
       objectReference: {fileID: 1470802944}
+    - target: {fileID: 38848255232325403, guid: 9f018d61748286a4f83679c18721010e,
+        type: 3}
+      propertyPath: deadFace
+      value: 
+      objectReference: {fileID: 6307932743874575910, guid: 477dfc1dd26d0ab4591dd360421b436a,
+        type: 3}
     - target: {fileID: 4305957160044689397, guid: 9f018d61748286a4f83679c18721010e,
         type: 3}
       propertyPath: m_LocalPosition.x

@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     public float acc;
     public float speed;
     bool attack = false;
-    public GameObject monster;
+    public GameObject[] monster;
     float time = 0;
     public float additionalDist = 0;
     public TextMeshProUGUI text;
@@ -76,7 +76,7 @@ public class PlayerController : MonoBehaviour
             int num = Random.Range(5, 8);
             for(int i = 0; i < num; i++)
             {
-                var m = Instantiate(monster);
+                var m = Instantiate(monster[Random.Range(0, monster.Length)]);
                 m.transform.position = new Vector3(currGround.transform.position.x - 8f + Random.Range(18f, 44f), -2f, 0);
                 float size = Random.Range(0.8f, 1.2f) * (1 + time / 3);
                 m.transform.localScale = new Vector3(1, 1, 1) * size;

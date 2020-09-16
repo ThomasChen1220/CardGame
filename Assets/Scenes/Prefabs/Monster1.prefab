@@ -602,7 +602,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa34caf2adaace643953b261abb6e8b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bodyPart: {fileID: 0}
+  deadFace: {fileID: 6307932743874575910, guid: 477dfc1dd26d0ab4591dd360421b436a,
+    type: 3}
   health: 0
 --- !u!1 &38848255484350609
 GameObject:

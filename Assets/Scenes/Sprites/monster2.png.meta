@@ -23,6 +23,9 @@ TextureImporter:
   - first:
       213: 958748164737273685
     second: monster2_6
+  - first:
+      213: 1064345270153702285
+    second: monster2_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -285,6 +288,27 @@ TextureImporter:
       bones: []
       spriteID: bb75bc23a1e43e24bb041fd7253ab6c8
       internalID: 958748164737273685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster2_7
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 53
+        width: 517
+        height: 527
+      alignment: 9
+      pivot: {x: 0.48912582, y: 0.051950082}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac2f2ea68c5117468c2f699a8167e73
+      internalID: 1064345270153702285
       vertices: []
       indices: 
       edges: []

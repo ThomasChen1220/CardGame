@@ -20,6 +20,9 @@ TextureImporter:
   - first:
       213: -8517882140698288114
     second: monster1_5
+  - first:
+      213: 6307932743874575910
+    second: monster1_6
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -261,6 +264,27 @@ TextureImporter:
       bones: []
       spriteID: c76ca2de8f97bb4418e6686eeaaf82a7
       internalID: -8517882140698288114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster1_6
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 2
+        width: 602
+        height: 764
+      alignment: 9
+      pivot: {x: 0.51867765, y: 0.036408972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276b6e411452f4c40898eadbc616f77e
+      internalID: 6307932743874575910
       vertices: []
       indices: 
       edges: []
